@@ -23,20 +23,23 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    //function for wrong multiple choice clicks
+    func buttonPress(buttonInput:UIButton){
+        buttonInput.backgroundColor = UIColor.red
+        buttonInput.setTitle("WRONG!", for: .normal)
+    }
+    
     @IBAction func russiaButtonClicked(_ sender: UIButton) {
-        russiaButton.backgroundColor = UIColor.red
-        russiaButton.setTitle("WRONG!", for: .normal)
+        buttonPress(buttonInput: russiaButton)
     }
     
     
     @IBAction func canadaButtonClicked(_ sender: UIButton) {
-        canadaButton.backgroundColor = UIColor.red
-        canadaButton.setTitle("WRONG!", for: .normal)
+        buttonPress(buttonInput: canadaButton)
     }
     
     @IBAction func californiaButtonClicked(_ sender: UIButton) {
-        californiaButton.backgroundColor = UIColor.red
-        californiaButton.setTitle("WRONG!", for: .normal)
+        buttonPress(buttonInput: californiaButton)
     }
     
     
