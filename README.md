@@ -7,7 +7,7 @@ A single flashcard that can be toggled on and off. Multiple choice is included, 
 
 ### App Walk-though
 
-<img src="flashcardDemo.gif" width=200><br>
+<img src="http://g.recordit.co/IcRgopBuBO.gif" width=200><br>
 
 
 ## Required
